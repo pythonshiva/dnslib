@@ -11,7 +11,7 @@
         * DNSHeader 
         * DNSQuestion
         * RR (resource records)
-        * RD (resource data - superclass for TXT,A,AAAA,MX,CNAME,PRT,SOA,NAPTR)
+        * RD (resource data - superclass for TXT,A,AAAA,MX,CNAME,PTR,SOA,NAPTR)
         * DNSLabel (envelope for a DNS label)
 
     The library has (in theory) very rudimentary support for EDNS0 options
